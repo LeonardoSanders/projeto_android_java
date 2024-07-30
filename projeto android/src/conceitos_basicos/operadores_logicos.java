@@ -1,3 +1,4 @@
+package conceitos_basicos;
 public class operadores_logicos {
     public static void main(String[] args) {
         /*
@@ -6,8 +7,10 @@ public class operadores_logicos {
          * || = ou
          */
         boolean resultado;
+        int a = 10;
+        int b = 10;
         
-        if (10 == 10 && 10<20) {
+        if (a == b && 10<20) {
             resultado = true;
         }else{
             resultado = false;
